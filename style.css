@@ -9,8 +9,7 @@
 }
 
 body{
-    font-family: sans-serif;
-
+    font-family: sans-serif,serif;
 }
 
 header{
@@ -111,7 +110,6 @@ button{
     text-align: center;
     text-transform: capitalize;
 }
-
 
 .card h4{
     margin: 40px;
