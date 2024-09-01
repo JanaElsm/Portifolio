@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orangered-color:lightblue;
+}
+
+body{
+    font-family: sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+.navigation a{
+    margin: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer p{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#about{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    display: block;
+    color: lightblue;
+    margin: 5px 0;
+}
+
+h3{
+    margin: 5px 0;
+}
+
+i{
+    font-size: 25px;
+    color: black;
+}
+
+button{
+    margin: 10px 0;
+    border: none;
+    background-color:lightblue;
+    border-radius: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 20px;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.card i{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+#projects  h3,
+    #skills  h3,#contact-us{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.card h4{
+    margin: 40px;
+}
+
+
+#projects a{
+    text-decoration: none;
+    color: black;
+}
+
